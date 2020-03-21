@@ -1,0 +1,31 @@
+body{
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+ul li{
+  display: inline;
+  font-size:3em; 
+}
+
+ul > li:nth-of-type(2){
+  margin: 0 50px
+}
+
+ul{
+  padding: 0;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
